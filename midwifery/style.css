@@ -101,6 +101,10 @@ ul.article-list > li > a:hover {
     font-size: 1rem;
 }
 
+#references ul {
+    padding: 0;
+}
+
 #references ul > li {
     list-style: none;
     margin-bottom: 1rem;
