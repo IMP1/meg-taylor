@@ -96,3 +96,12 @@ ul.article-list > li > a {
 ul.article-list > li > a:hover {
     color: #004422;
 }
+
+#references > h1 {
+    font-size: 1rem;
+}
+
+#references ul > li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
