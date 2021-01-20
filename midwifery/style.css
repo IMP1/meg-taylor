@@ -97,15 +97,18 @@ ul.article-list > li > a:hover {
     color: #004422;
 }
 
-#references > h1 {
+#references > h1,
+#figure-captions > h1 {
     font-size: 1rem;
 }
 
-#references ul {
+#references ol,
+#figure-captions ul {
     padding: 0;
 }
 
-#references ul > li {
+#references ol > li,
+#figure-captions ul > li {
     list-style: none;
     margin-bottom: 1rem;
 }
