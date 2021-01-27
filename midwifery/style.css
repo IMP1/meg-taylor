@@ -80,6 +80,11 @@ article > .description {
     text-align: center;
 }
 
+article h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 ul.article-list > li {
     font-size: 0.95rem;
     list-style: none;
@@ -111,4 +116,12 @@ ul.article-list > li > a:hover {
 #figure-captions ul > li {
     list-style: none;
     margin-bottom: 1rem;
+}
+
+section.note {
+    font-style: italic;
+}
+
+section.note em {
+    font-style: normal;
 }
