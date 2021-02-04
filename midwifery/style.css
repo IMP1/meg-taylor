@@ -118,10 +118,12 @@ ul.article-list > li > a:hover {
     margin-bottom: 1rem;
 }
 
+.quote,
 section.note {
     font-style: italic;
 }
 
+.quote em,
 section.note em {
     font-style: normal;
 }
