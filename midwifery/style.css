@@ -118,11 +118,13 @@ ul.article-list > li > a:hover {
     margin-bottom: 1rem;
 }
 
+blockquote,
 .quote,
 section.note {
     font-style: italic;
 }
 
+blockquote em,
 .quote em,
 section.note em {
     font-style: normal;
