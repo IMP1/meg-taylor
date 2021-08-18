@@ -118,8 +118,10 @@ ul.article-list > li > a:hover {
 
 #references ol > li,
 #figure-captions ul > li {
-    list-style: none;
     margin-bottom: 1rem;
+}
+#figure-captions ul > li {
+    list-style: none;
 }
 
 blockquote,
