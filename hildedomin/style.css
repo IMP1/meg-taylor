@@ -1,0 +1,147 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #052222;
+}
+
+body {
+    width: 780px;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid black;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    min-height: 600px;
+}
+
+#title {
+    background-color: #ddd;
+    padding: 15px 10px 15px 20px;
+}
+
+#title > h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#title > h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+.centred {
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    width: 200px;
+    float: left;
+    padding: 15px 10px 15px 20px;
+}
+
+nav a {
+    color: #555555;
+    text-decoration: none;
+}
+
+nav li.active {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+nav li:hover {
+    color: #873412;
+}
+
+nav a:hover {
+    color: black;
+}
+
+article {
+    margin: 33px 20px 0 220px;
+    padding: 0 20px;
+}
+
+article > h1.index {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+article > address.author {
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+article > address.author > a[rel=author]::before {
+    content: ' ';
+    display: block;
+}
+
+article > .description {
+    text-align: center;
+}
+
+article h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+/*
+ul.article-list > li {
+    font-size: 0.95rem;
+    list-style: none;
+    background-color: #ddd;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+ul.article-list > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+ul.article-list > li > a:hover {
+    color: #004422;
+}
+*/
+blockquote,
+.quote,
+section.note {
+    font-style: italic;
+}
+
+blockquote em,
+.quote em,
+section.note em {
+    font-style: normal;
+}
+
+#autumn-eyes {
+    /*text-align: right;*/
+    background: url("http://hildedomin.megtaylor.co.uk/images/thistledown.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*min-width: 550px;*/
+    min-height: 671px;
+    padding: 1rem;
+    padding-left: 55%;
+    padding-right: 0;
+    font-size: 1rem;
+}
+
+#credits {
+    font-style: italic;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
