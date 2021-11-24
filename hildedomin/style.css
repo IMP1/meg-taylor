@@ -184,8 +184,10 @@ section.poem > p.poem:first-of-type {
 }
 
 .poem-credit {
-    margin-top: 4rem;
     padding-left: 12rem;
+}
+.poem.poem-credit {
+    margin-top: 4rem;
 }
 
 article > h1 {
