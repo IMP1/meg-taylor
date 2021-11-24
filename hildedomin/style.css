@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 article {
-    margin: 33px 20px 0 220px;
+    margin: 33px 20px 96px 260px;
     padding: 0 20px;
 }
 
@@ -167,6 +167,25 @@ section.note em {
 
 section.poem {
     margin-top: 16rem;
+    margin-left: 2rem;
+}
+
+p.subtitle {
+    margin-top: -1rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+section.poem > p.poem {
+    margin-top: 16rem;
+}
+section.poem > p.poem:first-of-type {
+    margin-top: 0;
+}
+
+.poem-credit {
+    margin-top: 4rem;
+    padding-left: 12rem;
 }
 
 article > h1 {
@@ -178,4 +197,13 @@ article > h1 {
 article > h2 {
     font-size: 1rem;
     text-align: center;
+}
+
+h1.unbold,
+h2.unbold,
+h3.unbold,
+h4.unbold,
+h5.unbold,
+h6.unbold {
+    font-weight: normal;
 }
