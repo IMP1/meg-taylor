@@ -1,0 +1,98 @@
+body {
+    width: 720px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    padding: 0;
+}
+
+#header,
+#footer {
+    background-color: #C00000;
+    color: #FFC000;
+    text-align: center;
+}
+
+#header {
+    border-bottom: 2px solid black;
+    padding: 1.2rem;
+}
+
+#header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+#header h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#footer {
+    border-top: 2px solid black;
+    font-size: 1.2rem;
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+}
+#footer p {
+    margin: 0;
+}
+
+#links div {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+#links div:first-of-type {
+    border-right: 2px solid black;
+}
+
+#links h1 {
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+#links a {
+    text-decoration: none;
+    color: black;
+}
+#links img {
+
+}
+
+#hilde-domin div:first-of-type {
+    background-color: #C6D9F1;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+}
+#hilde-domin div:first-of-type h1 {
+    text-transform: uppercase;
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+}
+#hilde-domin div:first-of-type span {
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#hilde-domin div#autumn-eyes {
+    background-color: white;
+    background-image: url("images/thistledown.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*width: 500px;*/
+    min-height: 671px;
+    padding-left: 320px;
+    margin-left: 85px;
+    font-family: 'Calibri', sans-serif;
+}
+
+#hilde-domin div#autumn-eyes p:first-of-type {
+    margin-top: 0;
+    padding-top: 2rem;
+}
