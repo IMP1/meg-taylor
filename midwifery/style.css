@@ -63,7 +63,7 @@ article {
     padding: 0 20px;
 }
 
-article > h1.index {
+article > h1 {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
