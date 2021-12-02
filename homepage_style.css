@@ -7,6 +7,11 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 #header,
 #footer {
     background-color: #C00000;
@@ -52,15 +57,11 @@ body {
     font-size: 1.2rem;
     font-weight: normal;
 }
-#links a {
-    text-decoration: none;
-    color: black;
-}
 #links img {
 
 }
 
-#hilde-domin div:first-of-type {
+#hilde-domin > div:first-of-type {
     background-color: #C6D9F1;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -68,13 +69,13 @@ body {
     padding-top: 0.2rem;
     padding-bottom: 1rem;
 }
-#hilde-domin div:first-of-type h1 {
+#hilde-domin > div:first-of-type h1 {
     text-transform: uppercase;
     font-family: 'Calibri', sans-serif;
     font-size: 1.8rem;
     margin: 0;
 }
-#hilde-domin div:first-of-type span {
+#hilde-domin > div:first-of-type span {
     font-family: 'Calibri', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
